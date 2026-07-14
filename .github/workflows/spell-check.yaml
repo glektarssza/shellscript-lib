@@ -69,7 +69,7 @@ jobs:
         if: inputs.package-manager == 'pnpm'
         uses: pnpm/action-setup@v6
         with:
-          version: ${{inputs.package-manager-version}}
+          version: ${{(inputs.package-manager-version == 'latest' && '11.13.0') || inputs.package-manager-version}}
           run_install: false
           standalone: false
       - id: setup-nodejs
