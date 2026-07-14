@@ -4,6 +4,7 @@ hotfixes
 iregex
 mpre
 netrwhist
+pipx
 remotehub
 safecrlf
 sessionx
