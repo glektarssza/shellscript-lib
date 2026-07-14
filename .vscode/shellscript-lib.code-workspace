@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "name": "ShellScript Library",
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "bashIde.globPattern": "**/*@(.sh)",
+        "bashIde.includeAllWorkspaceSymbols": true,
+        "bashIde.shellcheckPath": "PATH_TO_SHELLCHECK_BINARY",
+        "bashIde.shfmt.binaryNextLine": false,
+        "bashIde.shfmt.caseIndent": true,
+        "bashIde.shfmt.funcNextLine": false,
+        "bashIde.shfmt.ignoreEditorconfig": false,
+        "bashIde.shfmt.languageDialect": "auto",
+        "bashIde.shfmt.path": "PATH_TO_SHFMT_BINARY",
+        "bashIde.shfmt.simplifyCode": true,
+        "bashIde.shfmt.spaceRedirects": true,
+        "prettier.configPath": ".prettierrc.mjs",
+        "prettier.ignorePath": ".prettierignore"
+    }
+}
